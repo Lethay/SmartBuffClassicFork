@@ -1,0 +1,19 @@
+## Interface: 11302
+## Title: Smart|cffffffffBuff|r by |cff00ff00Aeldra|r
+## Version: 1.13.2d
+## Author: |cff20d2ffAeldra|r (EU-Proudmoore)
+## Notes: Cast the most important buffs on you or party/raid members/pets. Use  /sbm  for options menu.
+## Notes-deDE: Castet die wichtigsten Buffs auf dich selbst, Gruppe/Raid Mitglieder/Pets. Benutze  /sbm  um das Menü zu öffnen
+## Notes-frFR: Cast the most important buffs on you or party/raid members/pets. Use  /sbm  for options menu.
+## eMail: aeldra@sonnenkinder.org
+## DefaultState: Enabled
+## LoadOnDemand: 0
+## SavedVariables: SMARTBUFF_OptionsGlobal
+## SavedVariablesPerCharacter: SMARTBUFF_Options, SMARTBUFF_Buffs
+
+lib\LibStub\LibStub.lua
+lib\CallbackHandler-1.0\CallbackHandler-1.0.lua
+lib\LibClassicDurations\LibClassicDurations.xml
+
+SmartBuff.globals.lua
+SmartBuff.xml
